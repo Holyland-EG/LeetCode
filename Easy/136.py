@@ -1,0 +1,20 @@
+"""
+Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+"""
+
+
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        elem_dict = {}
+
+        for elem in nums:
+            prev_val = elem_dict.get(elem, 0)
+            if prev_val > 0:
+                del elem_dict[elem]
+            else:
+                elem_dict[elem] = elem_dict.get(elem, 0) + 1
+
+        return list(elem_dict.keys())[0]
+        
