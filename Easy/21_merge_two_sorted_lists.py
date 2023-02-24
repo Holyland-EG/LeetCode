@@ -1,9 +1,13 @@
-"""
-You are given the heads of two sorted linked lists list1 and list2.
+""" You are given the heads of two sorted linked lists list1 and list2.
 
 Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
 
 Return the head of the merged linked list.
+
+________________
+
+speed
+O(N)
 """
 
 
@@ -41,3 +45,7 @@ class Solution:
 
         return new_list.next
         
+
+list1 = ListNode(1, ListNode(2, ListNode(4, None)))    
+list2 = ListNode(1, ListNode(3, ListNode(4, None)))   
+print(Solution.mergeTwoLists(list1, list2))

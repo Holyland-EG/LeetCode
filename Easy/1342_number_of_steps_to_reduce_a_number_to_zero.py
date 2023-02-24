@@ -1,7 +1,11 @@
-"""
-Given an integer num, return the number of steps to reduce it to zero.
+""" Given an integer num, return the number of steps to reduce it to zero.
 
 In one step, if the current number is even, you have to divide it by 2, otherwise, you have to subtract 1 from it.
+
+________________
+
+speed
+O(N)
 """
 
 
@@ -19,4 +23,10 @@ class Solution:
             num = self.reduce_num(num)
             opers += 1
         return opers
+
+
+print(Solution.numberOfSteps(14))
+print(Solution.numberOfSteps(8))
+print(Solution.numberOfSteps(123))
+print(Solution.numberOfSteps(0))
         

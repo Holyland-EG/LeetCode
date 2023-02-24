@@ -1,5 +1,9 @@
-"""
-Given an integer x, return true if x is a palindrome, and false otherwise.
+""" Given an integer x, return true if x is a palindrome, and false otherwise.
+
+________________
+
+speed 
+O(N)
 """
 
 
@@ -12,3 +16,7 @@ class Solution:
             return True
         else:
             return False
+
+print(Solution.isPalindrome(121))
+print(Solution.isPalindrome(-121))
+print(Solution.isPalindrome(10))

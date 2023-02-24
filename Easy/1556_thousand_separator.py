@@ -1,5 +1,9 @@
-"""
-Given an integer n, add a dot (".") as the thousands separator and return it in string format.
+""" Given an integer n, add a dot (".") as the thousands separator and return it in string format.
+
+________________
+
+speed
+O(N)
 """
 
 
@@ -13,3 +17,8 @@ class Solution:
                 i -= 4
             return ''.join(n)
         return str(n)
+
+
+
+print(Solution.thousandSeparator(987))
+print(Solution.thousandSeparator(1234))

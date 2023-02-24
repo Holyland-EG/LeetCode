@@ -1,5 +1,4 @@
-"""
-Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
+""" Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. 
 The relative order of the elements should be kept the same.
 
 Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums.
@@ -25,10 +24,16 @@ for (int i = 0; i < k; i++) {
 }
 
 If all assertions pass, then your solution will be accepted.
+
+________________
+
+speed
+O(N)
 """
 
 
 class Solution:
+
     def removeDuplicates(self, nums: List[int]) -> int:
         prev_element = None
         for i in nums.copy():
@@ -37,3 +42,9 @@ class Solution:
             else:
                 prev_element = i
         return len(nums)
+
+
+print(Solution.removeDuplicates([1, 1, 2]))
+print(Solution.removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
+print(Solution.removeDuplicates([1, 2, 3]))
+print(Solution.removeDuplicates([]))

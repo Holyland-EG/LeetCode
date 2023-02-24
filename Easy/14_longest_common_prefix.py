@@ -1,7 +1,11 @@
-"""
-Write a function to find the longest common prefix string amongst an array of strings.
+""" Write a function to find the longest common prefix string amongst an array of strings.
 
 If there is no common prefix, return an empty string "".
+
+________________
+
+speed
+O(N)
 """
 
 
@@ -26,3 +30,7 @@ class Solution:
 
     def get_i_pos(self, string, i):
         return string[i]
+
+
+print(Solution.longestCommonPrefix(["flower", "flow", "flight"]))
+print(Solution.longestCommonPrefix(["dog", "racecar", "car"]))
