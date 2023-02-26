@@ -20,5 +20,5 @@ class Solution:
 
 
 
-print(Solution.thousandSeparator(987))
-print(Solution.thousandSeparator(1234))
+print(Solution().thousandSeparator(987))
+print(Solution().thousandSeparator(1234))

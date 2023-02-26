@@ -29,6 +29,6 @@ class Solution:
         return reversed_x
 
 
-print(Solution.reverse(123))
-print(Solution.reverse(-123))
-print(Solution.reverse(120))
+print(Solution().reverse(123))
+print(Solution().reverse(-123))
+print(Solution().reverse(120))

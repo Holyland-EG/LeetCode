@@ -42,5 +42,5 @@ class Solution:
 
 l1 = ListNode(2, ListNode(4, ListNode(3, None)))
 l2 = ListNode(5, ListNode(6, ListNode(4, None)))
-print(Solution.addTwoNumbers(l1, l2))
+print(Solution().addTwoNumbers(l1, l2))
         

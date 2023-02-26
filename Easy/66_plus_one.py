@@ -17,6 +17,6 @@ class Solution:
         return list(map(int, list(str(digit))))
         
 
-print(Solution.plusOne([1, 2, 3]))
-print(Solution.plusOne([4, 3, 2, 1]))
-print(Solution.plusOne([9]))
+print(Solution().plusOne([1, 2, 3]))
+print(Solution().plusOne([4, 3, 2, 1]))
+print(Solution().plusOne([9]))

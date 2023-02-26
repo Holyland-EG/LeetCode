@@ -21,5 +21,5 @@ class Solution:
                 return elem
 
 
-print(Solution.majorityElement([3, 2, 3]))
-print(Solution.majorityElement([2, 2, 1, 1, 1, 2, 2]))
+print(Solution().majorityElement([3, 2, 3]))
+print(Solution().majorityElement([2, 2, 1, 1, 1, 2, 2]))

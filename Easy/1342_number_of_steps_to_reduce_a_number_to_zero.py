@@ -25,8 +25,8 @@ class Solution:
         return opers
 
 
-print(Solution.numberOfSteps(14))
-print(Solution.numberOfSteps(8))
-print(Solution.numberOfSteps(123))
-print(Solution.numberOfSteps(0))
+print(Solution().numberOfSteps(14))
+print(Solution().numberOfSteps(8))
+print(Solution().numberOfSteps(123))
+print(Solution().numberOfSteps(0))
         

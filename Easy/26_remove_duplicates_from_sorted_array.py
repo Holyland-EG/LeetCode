@@ -44,7 +44,7 @@ class Solution:
         return len(nums)
 
 
-print(Solution.removeDuplicates([1, 1, 2]))
-print(Solution.removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
-print(Solution.removeDuplicates([1, 2, 3]))
-print(Solution.removeDuplicates([]))
+print(Solution().removeDuplicates([1, 1, 2]))
+print(Solution().removeDuplicates([0, 0, 1, 1, 1, 2, 2, 3, 3, 4]))
+print(Solution().removeDuplicates([1, 2, 3]))
+print(Solution().removeDuplicates([]))

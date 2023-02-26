@@ -53,6 +53,6 @@ class Solution:
         return sum(integers)
 
 
-print(Solution.romanToInt("III"))
-print(Solution.romanToInt("LVIII"))
-print(Solution.romanToInt("MCMXCIV"))        
+print(Solution().romanToInt("III"))
+print(Solution().romanToInt("LVIII"))
+print(Solution().romanToInt("MCMXCIV"))        

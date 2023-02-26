@@ -17,6 +17,6 @@ class Solution:
         else:
             return False
 
-print(Solution.isPalindrome(121))
-print(Solution.isPalindrome(-121))
-print(Solution.isPalindrome(10))
+print(Solution().isPalindrome(121))
+print(Solution().isPalindrome(-121))
+print(Solution().isPalindrome(10))

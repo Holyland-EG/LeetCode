@@ -32,5 +32,5 @@ class Solution:
         return string[i]
 
 
-print(Solution.longestCommonPrefix(["flower", "flow", "flight"]))
-print(Solution.longestCommonPrefix(["dog", "racecar", "car"]))
+print(Solution().longestCommonPrefix(["flower", "flow", "flight"]))
+print(Solution().longestCommonPrefix(["dog", "racecar", "car"]))

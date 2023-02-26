@@ -30,6 +30,6 @@ class Solution:
         return True
 
 
-print(Solution.isHappy(19))
-print(Solution.isHappy(2))
-print(Solution.isHappy(1))
+print(Solution().isHappy(19))
+print(Solution().isHappy(2))
+print(Solution().isHappy(1))

@@ -49,10 +49,10 @@ class Solution:
         return 0
 
 
-print(Solution.myAtoi("42"))
-print(Solution.myAtoi("   -42"))
-print(Solution.myAtoi("4193 with words"))
-print(Solution.myAtoi("h42"))
-print(Solution.myAtoi("+-12"))
-print(Solution.myAtoi("-+12"))
-print(Solution.myAtoi(""))
+print(Solution().myAtoi("42"))
+print(Solution().myAtoi("   -42"))
+print(Solution().myAtoi("4193 with words"))
+print(Solution().myAtoi("h42"))
+print(Solution().myAtoi("+-12"))
+print(Solution().myAtoi("-+12"))
+print(Solution().myAtoi(""))

@@ -23,6 +23,6 @@ class Solution:
         return sum([tuple(sorted(tuples)) != tuples for tuples in zip(*strs)])
 
 
-print(Solution.minDeletionSize(["cba", "daf", "ghi"]))
-print(Solution.minDeletionSize(["a", "b"]))
-print(Solution.minDeletionSize(["zyx", "wvu", "tsr"]))
+print(Solution().minDeletionSize(["cba", "daf", "ghi"]))
+print(Solution().minDeletionSize(["a", "b"]))
+print(Solution().minDeletionSize(["zyx", "wvu", "tsr"]))

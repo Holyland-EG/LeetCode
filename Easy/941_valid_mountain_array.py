@@ -39,6 +39,6 @@ class Solution:
             return False
 
 
-print(Solution.validMountainArray([2, 1]))
-print(Solution.validMountainArray([3, 5, 5]))
-print(Solution.validMountainArray([0, 3, 2, 1]))
+print(Solution().validMountainArray([2, 1]))
+print(Solution().validMountainArray([3, 5, 5]))
+print(Solution().validMountainArray([0, 3, 2, 1]))
