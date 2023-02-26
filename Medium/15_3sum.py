@@ -21,8 +21,8 @@ class Solution:
             right_pointer = len(nums) - 1
 
             while left_pointer < right_pointer:
-                triplet = (nums[idx], nums[left_pointer], nums[right_pointer])
-                triplet_sum = sum(triplet)
+                triplet = (val, nums[left_pointer], nums[right_pointer])
+                triplet_sum = sum(triplet) 
 
                 if triplet_sum > 0:
                     right_pointer -= 1
