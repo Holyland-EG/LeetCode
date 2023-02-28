@@ -10,6 +10,7 @@ ________________
 speed
 O(N^3)
 """
+from typing import List
 
 
 class Solution:
@@ -36,9 +37,11 @@ class Solution:
                     else:
                         quadruplets.add(quadruplet)
 
-                        while nums[left_pointer] == quadruplet[2] and left_pointer < right_pointer:
+                        while (nums[left_pointer] == quadruplet[2] and 
+                               left_pointer < right_pointer):
                             left_pointer += 1
-                        while nums[right_pointer] == quadruplet[3] and left_pointer < right_pointer:
+                        while (nums[right_pointer] == quadruplet[3] and 
+                               left_pointer < right_pointer):
                             right_pointer -= 1
 
         return list(quadruplets)

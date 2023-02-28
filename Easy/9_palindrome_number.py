@@ -8,6 +8,7 @@ O(N)
 
 
 class Solution:
+	
     def isPalindrome(self, x: int) -> bool:
         x_list = list(str(x))
         if x < 0:
@@ -16,6 +17,7 @@ class Solution:
             return True
         else:
             return False
+
 
 print(Solution().isPalindrome(121))
 print(Solution().isPalindrome(-121))

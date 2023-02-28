@@ -7,6 +7,7 @@ ________________
 speed
 O(N^2)
 """
+from typing import List
 
 
 class Solution:

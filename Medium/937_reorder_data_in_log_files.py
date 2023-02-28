@@ -16,9 +16,9 @@ ________________
 speed
 O(N)
 """
-
-
 import re
+from typing import List
+
 
 class Solution:
     def reorderLogFiles(self, logs: List[str]) -> List[str]:

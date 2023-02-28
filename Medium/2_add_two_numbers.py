@@ -9,6 +9,7 @@ ________________
 speed
 O(N)
 """
+from typing import Optional
 
 
 class ListNode:

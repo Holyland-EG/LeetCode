@@ -36,7 +36,9 @@ class Solution:
 
             if i in all_nums:
                 num += i
-            elif idx == 0 and len(s) > idx+1 and i in "+-" and s[idx + 1] in all_nums:
+            elif (idx == 0 and len(s) > idx+1 and 
+                  i in "+-" and 
+                  s[idx + 1] in all_nums):
                 sign = -1 if i == "-" else 1
             else:
                 break

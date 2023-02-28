@@ -9,15 +9,18 @@ ________________
 speed
 O(N)
 """
+from typing import Optional
 
 
 class ListNode:
+
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
 
 
 class Solution:
+
     def valueSelector(
         self, list1: Optional[ListNode], list2: Optional[ListNode]
     ) -> Tuple[Union[None, int], Union[Optional[ListNode], None], Union[Optional[ListNode], None]]:

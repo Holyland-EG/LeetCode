@@ -10,6 +10,7 @@ O(N)
 
 
 class Solution:
+    
     @staticmethod
     def reduce_num(num: int) -> int:
         return {

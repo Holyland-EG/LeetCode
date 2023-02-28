@@ -30,6 +30,7 @@ ________________
 speed
 O(N)
 """
+from typing import List
 
 
 class Solution:

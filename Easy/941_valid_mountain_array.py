@@ -12,9 +12,11 @@ ________________
 speed 
 O(N)
 """
+from typing import List
 
 
 class Solution:
+
     def validMountainArray(self, arr: List[int]) -> bool:
         has_a_peak = False
         has_lower = False

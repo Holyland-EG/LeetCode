@@ -7,9 +7,11 @@ ________________
 speed
 O(N)
 """
+from typing import List
 
 
 class Solution:
+
     def longestCommonPrefix(self, strs: List[str]) -> str:
         lenght = ''
         min_len = min(list(map(len, strs)))
