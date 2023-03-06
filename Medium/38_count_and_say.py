@@ -10,7 +10,7 @@ Given a positive integer n, return the nth term of the count-and-say sequence.
 ________________
 
 speed
-O(N)
+O(N^2)
 """
 
 
